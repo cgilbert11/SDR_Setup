@@ -9,8 +9,14 @@ Audio apps
 
 
 Installing:
-'''
+```
 git clone https://github.com/cgilbert11/SDR_Setup
-'''
+```
+Then Part1
+```
 ./SDR_Setup_Part1
+```
+Then Part 2
+```
 ./SDR_Setup_Part2
+```
