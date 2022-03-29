@@ -46,4 +46,6 @@ pulseaudio load-module module-null-sink sink_name=Virtual_Sink sink_properties=d
 pulseaudio -k
 
 echo "Done with SDR Setup!"
+echo "Rebooting Now"
 
+sudo reboot
