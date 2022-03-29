@@ -11,7 +11,6 @@ Audio apps
 Installing:
 ```
 git clone https://github.com/cgilbert11/SDR_Setup
-```
-```
-./Install_SDR_Setup
+cd SDR_Setup
+sh Install_SDR_Setup.sh
 ```
