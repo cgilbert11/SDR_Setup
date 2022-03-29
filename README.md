@@ -6,3 +6,7 @@ GQRX
 WSJT-X and dependencies
 RTL-SDR Drivers
 Audio apps
+
+
+Installing:
+
