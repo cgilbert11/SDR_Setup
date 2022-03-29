@@ -13,7 +13,7 @@ Audio apps
 ```
 git clone https://github.com/cgilbert11/SDR_Setup
 cd SDR_Setup
-sh SDR_Setup_Part1.sh
+sh SDR_Setup
 ```
 #### Then, after first reboot
 
