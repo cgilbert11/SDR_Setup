@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Installing WSJT-X Dependencies"
 cd
 sudo apt install -y qtmultimedia5-dev libqt5serialport5-dev qttools5-dev
