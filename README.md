@@ -56,8 +56,8 @@ sh SDR_Setup_Part3.sh
 
 ### Receiving Signals
 In GQRX, set frequency to 28.074 MHz  
-	- This is the 10m band of FT8  
-	- The SDR Dongle has a range of about 25 – 1750 MHz  
+     - This is the 10m band of FT8  
+     - The SDR Dongle has a range of about 25 – 1750 MHz  
 Next, open WSJT-X and it should automatically be taking in data from GQRX    
 	- WSJT-X may alter your frequency a bit so just change it back in GQRX  
 After all of this, you should start seeing FT8 10m messages coming through  
