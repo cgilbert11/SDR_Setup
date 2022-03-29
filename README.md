@@ -28,10 +28,10 @@ sh SDR_Setup_Part3.sh
 ### Setting up
 
 #### GQRX Setup  
-Configure I/O device:  
-    Select Device  
-    Select Virtual_Sink for audio output device  
-Input Controls:  
+-Configure I/O device:  
+    -Select Device  
+    -Select Virtual_Sink for audio output device  
+-Input Controls:  
 	  Set “No Limits”  
 Receiver Options:  
 	  Mode: USB  
