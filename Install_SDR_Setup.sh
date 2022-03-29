@@ -26,7 +26,7 @@ sudo apt install -y libudev-dev portaudio19-dev libgfortran5
 echo "done"
 echo "creating directories"
 
-cd ~
+cd
 mkdir build
 cd build
 wget https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.5.4.tgz
