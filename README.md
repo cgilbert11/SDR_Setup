@@ -1,5 +1,5 @@
 # SDR_Setup
-Tools for receiving, transmitting, and decoding HF and other frequencies
+## Tools for receiving, transmitting, and decoding HF and other frequencies
 
 - Tools Contained in this repo:
 	- GQRX
