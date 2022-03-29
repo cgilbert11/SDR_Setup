@@ -18,6 +18,7 @@ sh Install_SDR_Setup.sh
 ### Setting up
 
 #### GQRX Setup  
+##### ffff
 - Configure I/O device:  
  	- Select Device  
  	- Select Virtual_Sink for audio output device  
