@@ -12,24 +12,16 @@ Installing:
 
 ```
 git clone https://github.com/cgilbert11/SDR_Setup
-```
-```
 cd SDR_Setup
-```
-```
 sh SDR_Setup_Part1.sh
 ```
 Then, after first reboot
 ```
 cd SDR_Setup
-```
-```
 sh SDR_Setup_Part2.sh
 ```
 After Second Reboot
 ```
 cd SDR_Setup
-```
-```
 sh SDR_Setup_Part3.sh
 ```
