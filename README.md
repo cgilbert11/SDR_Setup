@@ -3,7 +3,7 @@
 
 - Tools Contained in this repo:
 	- GQRX
-	- WSJT-X and dependencies
+	- WSJT-X
 	- RTL-SDR Drivers
 	- Audio apps
 
