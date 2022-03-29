@@ -18,31 +18,41 @@ sh Install_SDR_Setup.sh
 ### Setting up
 
 #### GQRX Setup  
-##### ffff
+##### When you launch GQRX for the first time a window will come up asking you to configure I/O devices:
 - Configure I/O device:  
- 	- Select Device  
- 	- Select Virtual_Sink for audio output device  
+ 	- Select Your Device  
+ 	- Select Virtual_Sink for your audio output device  
+ ##### Now, once GQRX launches there are 3 tabs at the bottom (Input Controls, Receiver Options, and FFT Settings)
+ Copy the settings below:
+ 
 - Input Controls:  
 	- Set “No Limits”  
 - Receiver Options:  
 	- Mode: USB  
+
+##### Finally, go to the top tool bar and click on "Tools", do the following,
 - Tools  
-	- Remote Control Settings: Write down allowed host  
-	- Enable Remote Control  
+	- Click on Remote Control Settings then write down allowed host  
+	- Enable Remote Control
 
 #### WSJT-X Setup
-- Settings
-	- Radio
-		- Rig: Hamlib.NET rig.ctl
-		- Network Server: <allowed host from GQRX>
-		- Test CAT - should turn green
-		- Scroll to bottom - click ok
+- Go to Settings
+	- Radio Tab
+		- For your rig, put: Hamlib.NET rig.ctl
+		- For Network Server put: <allowed host from GQRX>
 	- Audio
 		- Input: Virtual_Sink.monitor
 		- Output: default
-	- Mode = FT8
+	 	- Click Test CAT button - should turn green
+		- Scroll to bottom - click ok
+	- Click Mode tab on the top = change to FT8 (or a different band)
 
 ### Receiving Signals
+- One of the easier frequencies to get is WFM (FM Radio) - only test this with GQRX not WSJT-X
+	- Change GQRX mode to WFM
+	- tune to a local fm station
+	- you should see some large spikes, you can also plug headphones and listen directly
+	Change GQRX
 - In GQRX, set frequency to 28.074 MHz  
      - This is the 10m band of FT8  
      - The SDR Dongle has a range of about 25 – 1750 MHz  
