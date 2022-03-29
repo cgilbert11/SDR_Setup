@@ -15,12 +15,15 @@ git clone https://github.com/cgilbert11/SDR_Setup
 cd SDR_Setup
 sh SDR_Setup_Part1.sh
 ```
-Then, after first reboot
+#### Then, after first reboot
+
+This step will take a while
+
 ```
 cd SDR_Setup
 sh SDR_Setup_Part2.sh
 ```
-After Second Reboot
+#### After Second Reboot
 ```
 cd SDR_Setup
 sh SDR_Setup_Part3.sh
