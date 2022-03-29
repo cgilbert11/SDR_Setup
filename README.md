@@ -9,4 +9,6 @@ Audio apps
 
 
 Installing:
-git clone 
+git clone https://github.com/cgilbert11/SDR_Setup
+./SDR_Setup_Part1
+./SDR_Setup_Part2
