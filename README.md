@@ -27,17 +27,17 @@ sh SDR_Setup_Part3.sh
 ```
 ### Setting up
 
-#### GQRX Setup
-Configure I/O device: 
-    Select Device
-    Select Virtual_Sink for audio output device
-Input Controls:
-	  Set “No Limits”
-Receiver Options:
-	  Mode: USB
- Tools
-	  Remote Control Settings: Write down allowed host
-	  Enable Remote Control
+#### GQRX Setup  
+Configure I/O device:  
+    Select Device  
+    Select Virtual_Sink for audio output device  
+Input Controls:  
+	  Set “No Limits”  
+Receiver Options:  
+	  Mode: USB  
+ Tools  
+	  Remote Control Settings: Write down allowed host  
+	  Enable Remote Control  
 
 #### WSJT-X Setup
 Settings
