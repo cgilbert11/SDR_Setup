@@ -1,13 +1,6 @@
 # SDR_Setup
 ## Tools for receiving, transmitting, and decoding HF and other frequencies
 
-- Tools Contained in this repo:
-	- GQRX
-	- WSJT-X
-	- RTL-SDR Drivers
-	- Audio apps
-
-
 ### Installing:
 Run the following 3 lines in your terminal to install
 ```
