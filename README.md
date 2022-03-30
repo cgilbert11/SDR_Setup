@@ -20,6 +20,16 @@ Then, after reboot, set up the audio
 ```
 pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
 ```
+Or, to make Virutal_Sink permanent, run this:
+
+```
+sudo nano /etc/pulse/default.pa
+```
+Then add the following to the end of the file
+```
+pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
+```
+Then Save (CTRL+o),enter, exit (CTRL+X)
 
 ### Setting up
 
