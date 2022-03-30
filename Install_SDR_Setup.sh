@@ -62,10 +62,8 @@ echo "installing WSJT-X"
 cmake -DWSJT_SKIP_MANPAGES=ON -DWSJT_GENERATE_DOCS=OFF ../wsjtx-2.5.4
 sudo cmake --build . --target install
 
-echo "Completing Audio Mapping"
+echo "Downloading Audio Apps"
 sudo apt-get install pulseaudio pavucontrol mplayer -y
-pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
-pulseaudio -k
 
 echo "Done with SDR Setup!"
 echo "Rebooting Now"
