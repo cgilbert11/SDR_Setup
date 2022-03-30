@@ -9,7 +9,7 @@
 
 
 ### Installing:
-
+Run the following 3 lines in your terminal to install
 ```
 git clone https://github.com/cgilbert11/SDR_Setup
 cd SDR_Setup
