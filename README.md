@@ -15,6 +15,12 @@ git clone https://github.com/cgilbert11/SDR_Setup
 cd SDR_Setup
 sh Install_SDR_Setup.sh
 ```
+Then, after reboot, set up the audio
+
+```
+pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
+```
+
 ### Setting up
 
 #### GQRX Setup  
