@@ -31,7 +31,7 @@ pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device
 ```
 Then Save (CTRL+o),enter, exit (CTRL+X).
 
-Finally, run this to enact changes:
+Finally, run this to enact changes (don't do this if you chose the first option of the one line terminal setup):
 ```
 pulseaudio -k
 ```
