@@ -8,11 +8,16 @@ git clone https://github.com/cgilbert11/SDR_Setup
 cd SDR_Setup
 sh Install_SDR_Setup.sh
 ```
+### Boot Setup
+
 Then, after reboot, set up the audio
 
 ```
 pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
 ```
+
+#### Optional Boot Setup
+
 Or, to make Virutal_Sink permanent, run this:
 
 ```
